@@ -1,0 +1,64 @@
+.form-wrapper{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:#568dfc;
+}
+.form-input {
+    padding:5px 10px;
+    border:none;
+    border-radius:4px;
+    &:focus{
+        outline:1px #7aedff solid;
+    }
+    // outline:none;
+}
+.form-btn{
+    padding:5px 15px;
+    border:none;
+    border-radius:4px;
+    background-color:#ffffff;
+    &:hover{
+        background-color:#14d8db;
+        color:#ffffff;
+    }
+}
+.gallery {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+.load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding:10px 25px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover{
+        background-color:#14d8db;
+        color:#ffffff;
+    }
+}
+.is-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
